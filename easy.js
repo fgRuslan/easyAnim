@@ -33,3 +33,32 @@ function fadeOut(obj,time)
 $(obj).animate(
   {opacity: "hide"},time);
 }
+function fadeIn(obj,time)
+{
+$(obj).animate(
+  {opacity: "show"},time);
+}
+function makeDialog(obj,width1,height1,isModal)
+{
+$(obj).dialog({modal:isModal,height:height1,width:width1});
+}
+function clone(obj,to)
+{
+$(obj).clone().appendTo(to);
+}
+function hideOrShow(obj,bAction)
+{
+$(obj).animate({opacity:bAction},0);
+}
+function makeSlider(obj)
+{
+$(obj).slider();
+}
+function makeProgressBar(obj)
+{
+$(obj).ProgressBar();
+}
+function posZ(obj,indx)
+{
+$(obj).css("z-index",indx);
+}
