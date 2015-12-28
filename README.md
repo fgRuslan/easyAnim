@@ -25,7 +25,7 @@ If  you  want  to  try  the  library you  can  write  this  code:
 <script src="easy.js"></script>
 <script src="jQuery.js"></script>
 <script src="jQueryUI.js"></script>
-<a id="object" href="#">zaloopa  blyat'</a>
+<a id="object" href="#">hi,  i  am  the  link!!</a>
 <script>
 fadeOut("#object",5000);
 </script>
