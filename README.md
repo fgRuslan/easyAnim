@@ -1,6 +1,6 @@
 # easyAnim
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
-[site](https://http://fgRuslan.github.io/easyAnim)
+[site](https://fgRuslan.github.io/easyAnim)
 
 ##How to install the library
 ```
