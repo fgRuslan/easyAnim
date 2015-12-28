@@ -14,7 +14,8 @@ When  you  installed  the library  you  can  use  it..
 This  is  the  main  paragraph..You  should  write  this  in  your  HTML  page  to  initialize  the  library
 
 ```html
-<link href="jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-ui.css" 
+rel="stylesheet" type="text/css"/>
 <script src="easy.js"></script>
 <script src="jQuery.js"></script>
 <script src="jQueryUI.js"></script>
