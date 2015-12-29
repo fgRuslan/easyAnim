@@ -1,3 +1,5 @@
+If  you  want  to  add  your  function  in  the  library  please,add  an  issue.
+
 # easyAnim
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
 [site](https://fgRuslan.github.io/easyAnim)
