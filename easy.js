@@ -62,3 +62,19 @@ function posZ(obj,indx)
 {
 $(obj).css("z-index",indx);
 }
+//V2.0
+function makeAttention(obj,time)
+{
+	$(obj).css("position","relative");
+	$(obj).animate({opacity: "hide", top: "-10"},0);
+	$(obj).animate({opacity: "show", top: "10"}, "slow");
+	setTimeout(function()
+	{
+	$(obj).animate({opacity: "hide", top: "-10"}, "slow");
+	},time);
+}
+function translate(obj,x,y,time)
+{
+$(obj).css("position","relative");//make  it  movable
+$(obj).animate({left:x,top:y},time);//move
+}

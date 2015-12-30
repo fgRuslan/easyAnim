@@ -11,5 +11,5 @@ If  you  want  to  use  the  library  you  should  accept  this  terms:
 *  4.If  you  didn't  contact  Ruslan  Isaev(see  previous  term)  you  shouldn't  use  the  EasyAnim  
 library  in  a  commerical  purpose.
 
-That's  all  the  terms  you  should  accept..Remember..If  you  installed  the  library,you  accepted  this  license..
+That's  all  the  terms  you  should  accept..Remember..If  you  installed  the  library,you  *accepted*  this  license..
 Ruslan  Isaev..
