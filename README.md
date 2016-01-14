@@ -1,5 +1,3 @@
-If  you  want  to  add  your  function  in  the  library  please,add  an  issue.
-
 # easyAnim
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
 [site](https://fgRuslan.github.io/easyAnim)
@@ -11,7 +9,7 @@ git clone https://github.com/fgRuslan/easyAnim.git
 ```
 Or  you  can  download  an  archive.
 
-When  you  installed  the library  you  can  use  it..
+When  you  installed  the library  and  accepted  the  license  you  can  use  it..
 ##How  to  use  the  library
 This  is  the  main  paragraph..You  should  write  this  in  your  HTML  page  to  initialize  the  library
 
