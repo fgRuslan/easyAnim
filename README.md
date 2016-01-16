@@ -1,4 +1,7 @@
 # easyAnim
+
+![version](https://img.shields.io/badge/version-1.0-ffb400.svg?style=flat-square)  ![status](https://img.shields.io/badge/status%20%20on%20%20testing-good-2bc126.svg?style=flat-square)  ![license](https://img.shields.io/badge/license-apache-ff0000.svg?style=flat-square)
+
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
 [site](https://fgRuslan.github.io/easyAnim)
 
