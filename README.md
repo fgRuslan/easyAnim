@@ -9,6 +9,10 @@ You should clone this from github  by  this  command
 ```
 git clone https://github.com/fgRuslan/easyAnim.git
 ```
+or  with  [npm](https://www.npmjs.com/)
+```
+npm install easyanim
+```
 Or  you  can  download  an  archive.
 
 When  you  installed  the library  and  accepted  the  license  you  can  use  it..
