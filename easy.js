@@ -1,21 +1,22 @@
-function slide(obj,time)
+var easy=[];//Massive  of  variables  and  commands
+easy.slide=function(obj,time)
 {
 $(obj).slideToggle(time);
 }
-function remove(obj)
+easy.remove=function(obj)
 {
 $(obj).remove();
 }
-function dragOnAxis(obj,axis1)
+easy.dragOnAxis=function(obj,axis1)
 {
 $(obj).draggable({
 axis:axis1});
 }
-function makeDraggable(obj)
+easy.makeDraggable=function(obj)
 {
 $(obj).draggable();
 }
-function anim(obj,width1,opacity1,marginLeft1,fsize,borderWidth1,height1,bh1,TIME)
+easy.anim=function(obj,width1,opacity1,marginLeft1,fsize,borderWidth1,height1,bh1,TIME)
 {
 $(obj).animate({
     width: width1,
@@ -28,61 +29,61 @@ $(obj).animate({
 	borderHeight:bh1
   }, TIME );
 }
-function fadeOut(obj,time)
+easy.fadeOut=function(obj,time)
 {
 $(obj).animate(
   {opacity: "hide"},time);
 }
-function fadeIn(obj,time)
+easy.fadeIn=function(obj,time)
 {
 $(obj).animate(
   {opacity: "show"},time);
 }
-function makeDialog(obj,width1,height1,isModal)
+easy.makeDialog=function(obj,width1,height1,isModal)
 {
 $(obj).dialog({modal:isModal,height:height1,width:width1});
 }
-function clone(obj,to)
+easy.clone=function(obj,to)
 {
 $(obj).clone().appendTo(to);
 }
-function hideOrShow(obj,bAction)
+easy.hideOrShow=function(obj,bAction)
 {
 $(obj).animate({opacity:bAction},0);
 }
-function makeSlider(obj)
+easy.makeSlider=function(obj)
 {
 $(obj).slider();
 }
-function makeProgressBar(obj)
+easy.makeProgressBar=function(obj)
 {
 $(obj).ProgressBar();
 }
-function posZ(obj,indx)
+easy.posZ=function(obj,indx)
 {
 $(obj).css("z-index",indx);
 }
 //V2.0
-function makeAttention(obj,time)
+easy.makeAttention=function(obj,time)
 {
 translate(obj,$(obj).position(),$(obj).position()+10,"slow");
 setTimeout(function(){
 	translate(obj,$(obj).position(),$(obj).position()-10,"slow");
 },time);
 }
-function translate(obj,x,y,time)
+easy.translate=function(obj,x,y,time)
 {
 $(obj).css("position","relative");
 $(obj).animate({left:x,top:y},time);
 }
-function scale(obj,width1,height1,time)
+easy.scale=function(obj,width1,height1,time)
 {
 $(obj).animate({
 width:width1,height:height1}
 ,time);
 }
 //Add  here  more  arguments
-function fullAnim(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,bh1,visib,pos,bottom1,top1,TIME)
+easy.fullAnim=function(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,bh1,visib,pos,bottom1,top1,TIME)
 {
 $(obj).animate({
     width: width1,
@@ -98,7 +99,7 @@ $(obj).animate({
 	top:top1
   }, TIME );
 }
-function rotate(obj,deg1,time)
+easy.rotate=function(obj,deg1,time)
 {/*yeah  yeah  i  know*/
 /*  It's  not  working  without  fullAnim  function..  I  don't  know  why..*/
 /* TODO: Fix  this  bug*/
@@ -126,4 +127,14 @@ $(obj).animate({
 /*$("#object").css({
 transform: 'rotate(' + 90 + 'deg)'
 });*/
+}
+easy.moveTo=function(obj,left,right,top,bottom,time)
+{
+$(obj).css("position","relative");
+$(obj).animate({
+	left:left,
+	right:right,
+	top:top,
+	bottom:bottom
+	},time);
 }
