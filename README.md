@@ -1,5 +1,5 @@
 # easyAnim
-[![version](https://img.shields.io/badge/version-1.0-ffb400.svg?style=flat-square)](http://frostgateteam.16mb.com/archive/easyAnim.zip) ![status](https://img.shields.io/badge/status%20%20on%20%20testing-good-2bc126.svg?style=flat-square)  [![license](https://img.shields.io/badge/license-apache-ff0000.svg?style=flat-square)](http://choosealicense.com/licenses/apache-2.0/)
+[![version](https://img.shields.io/badge/version-1.5-ffb400.svg?style=flat-square)](http://frostgateteam.16mb.com/archive/easyAnim.zip) ![status](https://img.shields.io/badge/status%20%20on%20%20testing-good-2bc126.svg?style=flat-square)  [![license](https://img.shields.io/badge/license-apache-ff0000.svg?style=flat-square)](http://choosealicense.com/licenses/apache-2.0/)
 
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
 [site](https://fgRuslan.github.io/easyAnim)
@@ -38,7 +38,7 @@ If  you  want  to  try  the  library you  can  write  this  code:
 <script src="jQueryUI.js"></script>
 <a id="object" href="#">hi,  i  am  the  link!!</a>
 <script>
-fadeOut("#object",5000);
+easy.fadeOut("#object",5000);
 </script>
 </html>
 ```
