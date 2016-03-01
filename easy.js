@@ -83,8 +83,9 @@ width:width1,height:height1}
 ,time);
 }
 //Add  here  more  arguments
-easy.fullAnim=function(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,bh1,visib,pos,bottom1,top1,TIME)
+easy.fullAnim=function(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,width1,bh1,visib,pos,bottom1,top1,bottom1,left1,right1,TIME)
 {
+$(obj).css("position","relative");
 $(obj).animate({
     width: width1,
     opacity: opacity1,
@@ -92,11 +93,15 @@ $(obj).animate({
     fontSize: fsize,
     borderWidth: bw1,
 	height:height1,
+	width:width1,
 	borderHeight:bh1,
 	position:pos,
 	visibility:visib,
 	bottom:bottom1,
-	top:top1
+	top:top1,
+	bottom:bottom1,
+	left:left1,
+	right:right1
   }, TIME );
 }
 easy.rotate=function(obj,deg1,time)
