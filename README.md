@@ -1,6 +1,7 @@
 # easyAnim
 [![version](https://img.shields.io/badge/version-1.5-ffb400.svg?style=flat-square)](http://frostgateteam.16mb.com/archive/easyAnim.zip) ![status](https://img.shields.io/badge/status%20%20on%20%20testing-good-2bc126.svg?style=flat-square)  [![license](https://img.shields.io/badge/license-apache-ff0000.svg?style=flat-square)](http://choosealicense.com/licenses/apache-2.0/)
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/easyanim)
+[![Bower](https://img.shields.io/bower/v/bootstrap.svg?style=plastic)]()
 
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
 [site](https://fgRuslan.github.io/easyAnim)
@@ -10,9 +11,13 @@ You should clone this from github  by  this  command
 ```
 git clone https://github.com/fgRuslan/easyAnim.git
 ```
-or  with  [npm](https://www.npmjs.com/)
+with  [npm](https://www.npmjs.com/)
 ```
 npm install easyanim
+```
+with  [bower](https://bower.io)
+```
+bower install easyanim
 ```
 Or  you  can  download  an  archive.
 
