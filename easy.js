@@ -1,6 +1,6 @@
 var easy=[];//Massive  of  variables  and  commands
 if(window.ActiveXObject || "ActiveXObject" in window)
-	alert("USING  IE!LIB  CAN  WORK  BAD..");
+	console.log("Using  Internet  Explorer.  EasyAnim  can't  work....");//Don't  try  to  work  with  easyanim  in  IE..
 easy.slide=function(obj,time)
 {
 $(obj).slideToggle(time);
@@ -84,10 +84,10 @@ $(obj).animate({
 width:width1,height:height1}
 ,time);
 }
-//Add  here  more  arguments
+//Add  here  more  arguments  /*  Whoa!This  function  has a  lot  of  args.If  you  dont  want  to  use  this  function  you   can  use  jQuery  equivalent    TODO: Fix it.*/
 easy.fullAnim=function(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,width1,bh1,visib,pos,bottom1,top1,bottom1,left1,right1,TIME)
 {
-$(obj).css("position","relative");
+$(obj).css("position","relative");//It  doesn't  work  without  this.
 $(obj).animate({
     width: width1,
     opacity: opacity1,
@@ -110,6 +110,7 @@ easy.rotate=function(obj,deg1,time)
 {/*yeah  yeah  i  know*/
 /*  It's  not  working  without  fullAnim  function..  I  don't  know  why..*/
 /* TODO: Fix  this  bug*/
+//Terrivle  mess  over  here!!But,you  know,It  works..
 $(obj).animate({
     "opacity": "1"
 }, 1, function () {
