@@ -1,6 +1,6 @@
 var easy=[];//Massive  of  variables  and  commands
 if(window.ActiveXObject || "ActiveXObject" in window)
-	alert("USING  IE!LIB  CAN  WORK  BAD..");
+	console.log("Using  Internet  Explorer.  EasyAnim  can't  work....");
 easy.slide=function(obj,time)
 {
 $(obj).slideToggle(time);
