@@ -39,7 +39,7 @@ If  you  want  to  try  the  library you  can  write  this  code:
 <script src="jQueryUI.js"></script>
 <a id="object" href="#">hi,  i  am  the  link!!</a>
 <script>
-fadeOut("#object",5000);
+easy.fadeOut("#object",5000);
 </script>
 </html>
 ```
