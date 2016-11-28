@@ -101,7 +101,7 @@ $(obj).animate({
 width:width1,height:height1}
 ,time);
 }
-//Add  here  more  arguments  /*  Whoa!This  function  has a  lot  of  args.If  you  dont  want  to  use  this  function  you   can  use  jQuery  equivalent    TODO: Fix it.*/
+//Fix  this
 easy.fullAnim=function(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,width1,bh1,visib,pos,bottom1,top1,bottom1,left1,right1,TIME)
 {
 $(obj).css("position","relative");//It  doesn't  work  without  this.
@@ -153,7 +153,7 @@ $(obj).animate({
 transform: 'rotate(' + 90 + 'deg)'
 });*/
 }
-easy.moveTo=function(obj,left,right,top,bottom,time)
+easy.move=function(obj,left,right,top,bottom,time)
 {
 $(obj).css("position","relative");
 $(obj).animate({
