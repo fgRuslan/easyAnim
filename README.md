@@ -3,7 +3,8 @@
 [![npmver](http://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/easyanim)
 
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
-[site](https://fgRuslan.github.io/easyAnim)
+
+[library  site](https://fgRuslan.github.io/easyAnim)
 
 ##How to install the library
 You should clone this from github  by  this  command
@@ -45,3 +46,8 @@ easy.fadeOut("#object",5000);
 ```
 
 When  you  load  this  page  you  will  see  the  link,that  will  dissapear  after  5  seconds..
+
+After  building  the  library  you  can  use  minimify.py  to  minimify  it  by  removing  CRLFs  in  the  file.
+Beware!You  shouldn't  use  comments  like  this  -  //
+
+Minimify  won't  work  then.
