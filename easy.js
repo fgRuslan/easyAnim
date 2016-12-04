@@ -15,9 +15,9 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-var easy=[];//Massive  of  variables  and  commands
+var easy=[];
 if(window.ActiveXObject || "ActiveXObject" in window)
-	console.log("Using  Internet  Explorer.  EasyAnim  can't  work....");//Don't  try  to  work  with  easyanim  in  IE..
+	console.log("Using  Internet  Explorer.  EasyAnim  can't  work....");
 easy.slide=function(obj,time)
 {
 $(obj).slideToggle(time);
@@ -26,7 +26,7 @@ easy.remove=function(obj)
 {
 $(obj).remove();
 }
-easy.dragOnAxis=function(obj,axis1)
+easy.dragAxis=function(obj,axis1)
 {
 $(obj).draggable({
 axis:axis1});
@@ -78,18 +78,11 @@ easy.makeProgressBar=function(obj)
 {
 $(obj).ProgressBar();
 }
-easy.posZ=function(obj,indx)
+easy.Zindex=function(obj,indx)
 {
 $(obj).css("z-index",indx);
 }
 //V2.0
-easy.makeAttention=function(obj,time)
-{
-translate(obj,$(obj).position(),$(obj).position()+10,"slow");
-setTimeout(function(){
-	translate(obj,$(obj).position(),$(obj).position()-10,"slow");
-},time);
-}/*  It's  not  working!!*/
 easy.translate=function(obj,x,y,time)
 {
 $(obj).css("position","relative");
@@ -124,10 +117,7 @@ $(obj).animate({
   }, TIME );
 }
 easy.rotate=function(obj,deg1,time)
-{/*yeah  yeah  i  know*/
-/*  It's  not  working  without  fullAnim  function..  I  don't  know  why..*/
-/* TODO: Fix  this  bug*/
-//Terrivle  mess  over  here!!But,you  know,It  works..
+{
 $(obj).animate({
     "opacity": "1"
 }, 1, function () {
@@ -148,18 +138,4 @@ $(obj).animate({
         });
     });
 });
-
-/*$("#object").css({
-transform: 'rotate(' + 90 + 'deg)'
-});*/
-}
-easy.move=function(obj,left,right,top,bottom,time)
-{
-$(obj).css("position","relative");
-$(obj).animate({
-	left:left,
-	right:right,
-	top:top,
-	bottom:bottom
-	},time);
 }
