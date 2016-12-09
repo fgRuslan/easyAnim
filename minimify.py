@@ -1,4 +1,3 @@
-
 line = '''
 '''
 f=open('easy.js','r')

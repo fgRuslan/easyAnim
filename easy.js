@@ -43,7 +43,6 @@ $(obj).animate({
     marginLeft: marginLeft1,
     fontSize: fsize,
     borderWidth: borderWidth1,
-	//library  added
 	height:height1,
 	borderHeight:bh1
   }, TIME );
@@ -82,7 +81,6 @@ easy.Zindex=function(obj,indx)
 {
 $(obj).css("z-index",indx);
 }
-//V2.0
 easy.translate=function(obj,x,y,time)
 {
 $(obj).css("position","relative");
@@ -94,10 +92,9 @@ $(obj).animate({
 width:width1,height:height1}
 ,time);
 }
-//Fix  this
 easy.fullAnim=function(obj,width1,opacity1,marginLeft1,fsize,bw1,height1,width1,bh1,visib,pos,bottom1,top1,bottom1,left1,right1,TIME)
 {
-$(obj).css("position","relative");//It  doesn't  work  without  this.
+$(obj).css("position","relative");
 $(obj).animate({
     width: width1,
     opacity: opacity1,
