@@ -19,7 +19,7 @@ Or  you  can  download  an  archive.
 
 When  you  installed  the library  and  accepted  the  license  you  can  use  it..
 ##How  to  use  the  library
-This  is  the  main  paragraph..You  should  write  this  in  your  HTML  page  to  initialize  the  library
+You  should  write  this  in  your  HTML  page  to  include  all  dependencies.
 
 ```html
 <link href="jquery-ui.css" 
@@ -28,7 +28,7 @@ rel="stylesheet" type="text/css"/>
 <script src="jQuery.js"></script>
 <script src="jQueryUI.js"></script>
 ```
-When  you  finished  the  initialization  you   can  use  the  library.
+When  you  finished  this  step  you   can  use  the  library.
 
 #Examples
 
@@ -47,7 +47,18 @@ easy.fadeOut("#object",5000);
 
 When  you  load  this  page  you  will  see  the  link,that  will  dissapear  after  5  seconds..
 
-After  building  the  library  you  can  use  minimify.py  to  minimify  it  by  removing  CRLFs  in  the  file.
-Beware!You  shouldn't  use  comments  like  this  -  //
+Note  that  you  can  use  minimify.py  to  minimify  easy.js  by  removing  CRLFs  in  the  file.
+
+```
+python minimify.py
+```
+
+Beware!You  shouldn't  use  comments  like  this  -  //,only  /*  */
 
 Minimify  won't  work  then.
+
+Thank  you,if  you  have  questions,bugfixes  or  something  else,write  here:
+
+rusikisaev@list.ru
+
+Thank  you.
