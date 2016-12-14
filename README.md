@@ -2,9 +2,10 @@
 [![version](https://img.shields.io/badge/version-2.0-ffb400.svg?style=flat-square)](https://github.com/fgRuslan/easyAnim/releases) ![status](https://img.shields.io/badge/status%20%20on%20%20testing-good-2bc126.svg?style=flat-square)  [![license](https://img.shields.io/badge/license-GPL-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
 [![npmver](http://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/easyanim)
 
-This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  easier.
+This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  quicker.
 
 [library  site](https://fgRuslan.github.io/easyAnim)
+[manual](https://github.com/fgRuslan/easyAnim/blob/master/manual.md)
 
 ##How to install the library
 You should clone this from github  by  this  command
