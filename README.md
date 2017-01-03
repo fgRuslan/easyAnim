@@ -1,10 +1,11 @@
 # easyAnim
-[![version](https://img.shields.io/badge/version-2.0-ffb400.svg?style=flat-square)](https://github.com/fgRuslan/easyAnim/releases) ![status](https://img.shields.io/badge/status%20%20on%20%20testing-good-2bc126.svg?style=flat-square)  [![license](https://img.shields.io/badge/license-GPL-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
+[![version](https://img.shields.io/badge/version-2.5-ffb400.svg?style=flat-square)](https://github.com/fgRuslan/easyAnim/releases)[![license](https://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
 [![npmver](http://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/easyanim)
 
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  quicker.
 
 [library  site](https://fgRuslan.github.io/easyAnim)
+
 [manual](https://github.com/fgRuslan/easyAnim/blob/master/manual.md)
 
 ##How to install the library
@@ -12,15 +13,14 @@ You should clone this from github  by  this  command
 ```
 git clone https://github.com/fgRuslan/easyAnim.git
 ```
-or  with  [npm](https://www.npmjs.com/)
+Or  with  npm,this  library  is  available  on  npm.
 ```
 npm install easyanim
 ```
 Or  you  can  download  an  archive.
 
-When  you  installed  the library  and  accepted  the  license  you  can  use  it..
 ##How  to  use  the  library
-You  should  write  this  in  your  HTML  page  to  include  all  dependencies.
+You  should  write  this  code  to  load  jQuery  and  jQueryUI,which  is  used  by  easyanim.
 
 ```html
 <link href="jquery-ui.css" 
