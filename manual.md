@@ -7,11 +7,6 @@ This  is  a  list  of  all  functions  in  current  version  of  the  library:
 This  function  allows  you  to  slide  an  object.
 ```
 
-*function remove(obj)*
-```
-This  function  allows  you  to delete an  object.
-```
-
 *function dragAxis(obj,axis1)*
 ```
 This  function  allows  you  to drag an object with mouse by axis.
@@ -48,16 +43,6 @@ This  function  allows  you  to  hide  or  show  the  object.
 bAction="hide"  or  "show"
 ```
 
-*function makeSlider(obj)*
-```
-This  function  allows  you  to  make  slider from the  object.
-```
-
-*function makeProgressBar(obj)*
-```
-This  function  allows  you  to  make  a progressbar from the  object.
-```
-
 *function Zindex(obj,indx)*
 ```
 This  function  allows  you  to  change the object's position in z coord..
@@ -78,3 +63,5 @@ This  function  allows  you  to  rotate  the  object.
 ```
 
 Written  by  https://github.com/fgRuslan
+
+rusikisaev@list.ru

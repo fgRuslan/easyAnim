@@ -1,6 +1,6 @@
 /*
     EasyAnim
-    Copyright (C) 2016  Ruslan Isaev
+    Copyright (C) 2017  Ruslan Isaev
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,14 +17,10 @@
 */
 var easy=[];
 if(window.ActiveXObject || "ActiveXObject" in window)
-	console.log("Using  Internet  Explorer.  EasyAnim  can't  work....");
+	console.log("EasyAnim:Using  Internet  Explorer.  EasyAnim  can't  work....");
 easy.slide=function(obj,time)
 {
 $(obj).slideToggle(time);
-}
-easy.remove=function(obj)
-{
-$(obj).remove();
 }
 easy.dragAxis=function(obj,axis1)
 {
@@ -56,14 +52,6 @@ $(obj).clone().appendTo(to);
 easy.hideOrShow=function(obj,bAction)
 {
 $(obj).animate({opacity:bAction},0);
-}
-easy.makeSlider=function(obj)
-{
-$(obj).slider();
-}
-easy.makeProgressBar=function(obj)
-{
-$(obj).ProgressBar();
 }
 easy.Zindex=function(obj,indx)
 {
@@ -102,4 +90,5 @@ $(obj).animate({
         });
     });
 });
+colsole.log("EasyAnim:Rotate  function  is   buggy.Fix  it.");
 }
