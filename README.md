@@ -8,18 +8,22 @@ This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  
 
 [manual](https://github.com/fgRuslan/easyAnim/blob/master/manual.md)
 
-##How to install the library
+## How to install the library
 You should clone this from github  by  this  command
+
 ```
 git clone https://github.com/fgRuslan/easyAnim.git
 ```
+
 Or  with  npm,this  library  is  available  on  npm.
+
 ```
 npm install easyanim
 ```
+
 Or  you  can  download  an  archive.
 
-##How  to  use  the  library
+## How  to  use  the  library
 You  should  write  this  code  to  load  jQuery  and  jQueryUI,which  is  used  by  easyanim.
 
 ```html
