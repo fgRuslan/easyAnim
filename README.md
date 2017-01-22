@@ -31,23 +31,6 @@ rel="stylesheet" type="text/css"/>
 ```
 When  you  finished  this  step  you   can  use  the  library.
 
-#Examples
-
-If  you  want  to  try  the  library you  can  write  this  code:
-```html
-<html>
-<script src="easy.js"></script>
-<script src="jQuery.js"></script>
-<script src="jQueryUI.js"></script>
-<a id="object" href="#">hi,  i  am  the  link!!</a>
-<script>
-easy.fadeOut("#object",5000);
-</script>
-</html>
-```
-
-When  you  load  this  page  you  will  see  the  link,that  will  dissapear  after  5  seconds..
-
 Note  that  you  can  use  minimify.py  to  minimify  easy.js  by  removing  CRLFs  in  the  file.
 
 ```
