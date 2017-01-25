@@ -30,9 +30,9 @@ This  function  allows  you  to  make the object visible with beautiful transiti
 *function clone(obj,to)*
 ```
 This  function  allows  you  to  clone  the  object.
-
-**to** - an  element  where  easyAnim  should  clone  **obj**.
 ```
+**to** - an  element  where  easyAnim  should  clone  **obj**.
+
 
 *function hideOrShow(obj,bAction)*
 ```
