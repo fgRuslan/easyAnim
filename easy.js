@@ -24,10 +24,6 @@ easy.fadeIn=function(obj,time)
 $(obj).animate(
   {opacity: "show"},time);
 }
-easy.makeDialog=function(obj,width1,height1,isModal)
-{
-$(obj).dialog({modal:isModal,height:height1,width:width1});
-}
 easy.clone=function(obj,to)
 {
 $(obj).clone().appendTo(to);
@@ -53,25 +49,10 @@ width:width1,height:height1}
 }
 easy.rotate=function(obj,deg1,time)
 {
-$(obj).animate({
-    "opacity": "1"
-}, 1, function () {
-    $(obj).animate({
-        "position":"relative"
-    }, 1, function () {
-        $({
-            deg: 0
-        }).animate({
-            deg: deg1
-        }, {
-            duration: time,
-            step: function (now) {
-                $(obj).css({
-                    transform: 'rotate(' + now + 'deg)'
-                });
-            }
-        });
-    });
-});
-colsole.log("EasyAnim:Rotate  function  is   buggy.Fix  it.");
+$(obj).css("position","relative");
+$({deg: 0}).animate({deg: deg1}, {duration: time,step: function (now) {
+	$(obj).css({
+		transform: 'rotate(' + now + 'deg)'
+	});
+}});
 }

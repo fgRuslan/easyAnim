@@ -1,5 +1,5 @@
 # easyAnim
-[![version](https://img.shields.io/badge/version-2.5-ffb400.svg?style=flat-square)](https://github.com/fgRuslan/easyAnim/releases)[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
+[![version](https://img.shields.io/badge/version-2.2-ffb400.svg?style=flat-square)](https://github.com/fgRuslan/easyAnim/releases)[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
 [![npmver](http://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/easyanim)
 
 This  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  quicker.
