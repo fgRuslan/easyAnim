@@ -1,9 +1,11 @@
 # easyAnim
 
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
-[![npmver](http://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/easyanim)
+[![ghdownloads](https://img.shields.io/github/downloads/fgRuslan/easyAnim/latest/total.svg)](https://github.com/fgRuslan/easyAnim/releases)
+[![npm](https://img.shields.io/npm/dm/easyanim.svg)](https://www.npmjs.com/package/easyanim)
 
 easyAnim  is  a  Javascript  library  that  can  be  used  to  make  animating  in  jQuery  quicker.
+*Warning!* This  library  requires  jQuery and  jQueryUI  to  work,so you  should  include  them  somewhere.
 
 [library  site](https://fgRuslan.github.io/easyAnim)
 
@@ -28,11 +30,11 @@ Or  you  can  download  an  archive.
 You  should  write  this  code  to  load  jQuery  and  jQueryUI,which  are  used  by  easyanim.
 
 ```html
-<link href="jquery-ui.css" 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" 
 rel="stylesheet" type="text/css"/>
 <script src="easy.js"></script>
-<script src="jQuery.js"></script>
-<script src="jQueryUI.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 ```
 When  you  finished  this  step  you   can  use  the  library.
 

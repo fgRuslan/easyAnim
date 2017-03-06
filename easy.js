@@ -44,3 +44,45 @@ easy.rotate=function(obj,deg1,time)
 		});
 	}});
 }
+easy.color=function(obj,color1,action,secondPar,thirdPar,time)
+{
+	switch(action)
+	{
+		case "fade":
+			switch(secondPar)
+			{
+				case "fg":
+					$(obj).animate({color:color1},time);
+				break;
+				case "bg":
+					$(obj).animate({backgroundColor:color1},time);
+				break;
+			}
+		break;
+		case "glow":
+			switch(thirdPar)
+			{
+			case "fg":
+				function glowloop(color11,secondPar1){
+					$(obj).animate({Color:color11},0,function(){
+					$(obj).animate({Color:secondPar1},time,function()
+					{
+					setTimeout(glowloop,0,secondPar1,color11);
+					});
+				});
+				}
+				glowloop(color1,secondPar);
+			break;
+			case "bg":
+				function glowloop(color11,secondPar1){
+					$(obj).animate({backgroundColor:color11},0,function(){
+					$(obj).animate({backgroundColor:secondPar1},time,function()
+					{
+					setTimeout(glowloop,0,secondPar1,color11);
+					});
+				});
+				}
+				glowloop(color1,secondPar);
+			break;
+	}
+}
