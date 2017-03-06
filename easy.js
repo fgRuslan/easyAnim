@@ -84,5 +84,7 @@ easy.color=function(obj,color1,action,secondPar,thirdPar,time)
 				}
 				glowloop(color1,secondPar);
 			break;
-	}
+			}
+		break;
+}
 }
