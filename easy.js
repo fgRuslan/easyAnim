@@ -57,6 +57,8 @@ easy.color=function(obj,color1,action,secondPar,thirdPar,time)
 				case "bg":
 					$(obj).animate({backgroundColor:color1},time);
 				break;
+				default:
+					console.log("%cEasyAnim:Error in function color:invalid secondPar",'background: #222; color: #bada55');
 			}
 		break;
 		case "glow":
@@ -84,7 +86,11 @@ easy.color=function(obj,color1,action,secondPar,thirdPar,time)
 				}
 				glowloop(color1,secondPar);
 			break;
+			default:
+				console.log("%cEasyAnim:Error in function color:invalid thirdPar",'background: #222; color: #bada55');
 			}
 		break;
+		default:
+			console.log("%cEasyAnim:Error in function color:invalid action",'background: #222; color: #bada55');
 	}
 }
