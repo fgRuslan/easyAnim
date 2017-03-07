@@ -38,10 +38,10 @@ rel="stylesheet" type="text/css"/>
 ```
 When  you  finished  this  step  you   can  use  the  library.
 
-Note  that  you  can  use  minimify.py  to  minimify  easy.js  by  removing  CRLFs  in  the  file.
+Note  that  you  can  use  minify.py  to  minify  easy.js  by  removing  CRLFs  in  the  file.
 
 ```
-python minimify.py
+python minify.py
 ```
 
 Beware!You  shouldn't  use  comments  like  this  -  //,only  /*  */
