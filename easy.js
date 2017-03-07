@@ -16,6 +16,7 @@ easy.slide=function(obj,action,time)
 		break;
 		default:
 			console.log("%cEasyAnim:Error in function slide:invalid action",'background: #222; color: #bada55');
+		break;
 	}
 }
 easy.fade=function(obj,action,time)
@@ -59,38 +60,41 @@ easy.color=function(obj,color1,action,secondPar,thirdPar,time)
 				break;
 				default:
 					console.log("%cEasyAnim:Error in function color:invalid secondPar",'background: #222; color: #bada55');
+				break;
 			}
 		break;
 		case "glow":
 			switch(thirdPar)
 			{
-			case "fg":
-				function glowloop(color11,secondPar1){
-					$(obj).animate({Color:color11},0,function(){
-					$(obj).animate({Color:secondPar1},time,function()
-					{
-					setTimeout(glowloop,0,secondPar1,color11);
+				case "fg":
+					function glowloop(color11,secondPar1){
+						$(obj).animate({Color:color11},0,function(){
+						$(obj).animate({Color:secondPar1},time,function()
+						{
+						setTimeout(glowloop,0,secondPar1,color11);
+						});
 					});
-				});
-				}
-				glowloop(color1,secondPar);
-			break;
-			case "bg":
-				function glowloop(color11,secondPar1){
-					$(obj).animate({backgroundColor:color11},0,function(){
-					$(obj).animate({backgroundColor:secondPar1},time,function()
-					{
-					setTimeout(glowloop,0,secondPar1,color11);
+					}
+					glowloop(color1,secondPar);
+				break;
+				case "bg":
+					function glowloop(color11,secondPar1){
+						$(obj).animate({backgroundColor:color11},0,function(){
+						$(obj).animate({backgroundColor:secondPar1},time,function()
+						{
+						setTimeout(glowloop,0,secondPar1,color11);
+						});
 					});
-				});
-				}
-				glowloop(color1,secondPar);
+					}
+					glowloop(color1,secondPar);
+				break;
+				default:
+					console.log("%cEasyAnim:Error in function color:invalid thirdPar",'background: #222; color: #bada55');
+				break;
+			}
 			break;
 			default:
-				console.log("%cEasyAnim:Error in function color:invalid thirdPar",'background: #222; color: #bada55');
-			}
-		break;
-		default:
-			console.log("%cEasyAnim:Error in function color:invalid action",'background: #222; color: #bada55');
+				console.log("%cEasyAnim:Error in function color:invalid action",'background: #222; color: #bada55');
+			break;
 	}
 }
