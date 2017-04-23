@@ -1,5 +1,10 @@
 # easyAnim  function  manual
 
+**Note**: All functions(except *glow* parameter in *color* function) return an array of object and result.
+For example:
+* [object1, true]
+* [object2, false]
+
 This  is  a  list  of  all  functions  in  current  version  of  the  library:
 
 *function slide(obj, action, time)*
