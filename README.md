@@ -22,17 +22,6 @@ You should load jQuery which is used by easyanim.
 <script src="easy.js"></script>
 ```
 When you finished this step you can use the library.
-
-Note that you can use minify script to minify the library.
-
-```
-python minify.py
-```
-
-Beware!You shouldn't use oneline comments, only multiline comments or minify won't work.
-
 If you have questions,bugfixes or something else,write here:
-
 rusikisaev@list.ru
-
 Thank you.
