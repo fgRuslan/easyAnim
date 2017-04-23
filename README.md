@@ -1,53 +1,37 @@
 # easyAnim
 
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://choosealicense.com/licenses/gpl-3.0/)
-[![ghdownloads](https://img.shields.io/github/downloads/fgRuslan/easyAnim/latest/total.svg)](https://github.com/fgRuslan/easyAnim/releases)
-[![npm](https://img.shields.io/npm/dm/easyanim.svg)](https://www.npmjs.com/package/easyanim)
-
 easyAnim is a Javascript library that can be used to animate your websites quicker.
 *Warning!* This library requires jQuery to work,so you should include it somewhere.
 
-[library  site](https://fgRuslan.github.io/easyAnim)
+[library website](https://fgRuslan.github.io/easyAnim)
 
 [manual](https://github.com/fgRuslan/easyAnim/blob/master/manual.md)
 
 ## How to install the library
-You should clone this from github by this command:
+You should get the copy of the library from github with this command:
 
 ```
 git clone https://github.com/fgRuslan/easyAnim.git
 ```
 
-Or from npm:
-
-```
-npm install easyanim
-```
-
-Or you can download an archive.
-
 ## How  to  use  the  library
-You should write this code to load jQuery and jQueryUI,which are used by easyanim.
+You should load jQuery which is used by easyanim.
 
 ```html
-<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" 
-rel="stylesheet" type="text/css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="easy.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 ```
-When you finished this step you  can use the library.
+When you finished this step you can use the library.
 
-Note that you can use minify.py to minify easy.js.
+Note that you can use minify script to minify the library.
 
 ```
 python minify.py
 ```
 
-Beware!You shouldn't use comments like this - //,only /* */
+Beware!You shouldn't use oneline comments, only multiline comments or minify won't work.
 
-Minify won't work then.
-
-Thank you,if you have questions,bugfixes or something else,write here:
+If you have questions,bugfixes or something else,write here:
 
 rusikisaev@list.ru
 
