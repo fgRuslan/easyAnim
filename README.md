@@ -5,7 +5,7 @@ easyAnim is a Javascript library that can be used to animate your websites quick
 
 [library website](https://fgRuslan.github.io/easyAnim)
 
-[manual](https://github.com/fgRuslan/easyAnim/blob/master/manual.md)
+[manual](https://github.com/fgRuslan/easyAnim/blob/master/Documentation/manual.md)
 
 ## How to install the library
 You should get the copy of the library from github with this command:
