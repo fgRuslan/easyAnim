@@ -6,7 +6,7 @@ This  is  a  list  of  all  functions  in  current  version  of  the  library:
 ```
 This  function  allows  you  to  slide  an  object.
 ```
-*action* - **up** **down** or **toggle**
+*action* - **0** **1** or **2**
 
 
 *function fade(obj, action, time)*

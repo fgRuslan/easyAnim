@@ -3,17 +3,17 @@ var easy = [];
 if(window.ActiveXObject || "ActiveXObject" in window)
 	console.log("%ceasyAnim: Using Internet Explorer. easyAnim may not work", 'background: #222; color: #bada55');
 
-easy.slide = function(obj, action, time)
+easy.slide = function(obj, action, time)//Action can be 1(down) 0(up) or 2(toggle)
 {
 	switch(action)
 	{
-		case "toggle":
+		case 2://toggle
 			$(obj).slideToggle(time);
 		break;
-		case "up":
+		case 0://ip
 			$(obj).slideUp(time);
 		break;
-		case "down":
+		case 1://down
 			$(obj).slideDown(time);
 		break;
 		default:
