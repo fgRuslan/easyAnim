@@ -10,7 +10,7 @@ easy.slide = function(obj, action, time)//Action can be 1(down) 0(up) or 2(toggl
 		case 2://toggle
 			$(obj).slideToggle(time);
 		break;
-		case 0://ip
+		case 0://up
 			$(obj).slideUp(time);
 		break;
 		case 1://down
@@ -41,12 +41,13 @@ easy.scale = function(obj, width1, height1, time)
 easy.rotate = function(obj, deg1, time)
 {
 	$(obj).css("position", "relative");
-	$({deg: 0}).animate({deg: deg1},  {duration: time, step: function (now) {
+	$({deg: 0}).animate({deg: deg1}, {duration: time, step: function (now) {
 		$(obj).css({
 			transform: 'rotate(' + now + 'deg)'
 		});
 	}});
 }
+//Warning! This function is very messy
 easy.color = function(obj, color1, action, secondPar, thirdPar, time)
 {
 	switch(action)
@@ -54,10 +55,10 @@ easy.color = function(obj, color1, action, secondPar, thirdPar, time)
 		case "fade":
 			switch(secondPar)
 			{
-				case "fg":
+				case "foreground":
 					$(obj).animate({color:color1}, time);
 				break;
-				case "bg":
+				case "background":
 					$(obj).animate({backgroundColor:color1}, time);
 				break;
 				default:
@@ -68,10 +69,10 @@ easy.color = function(obj, color1, action, secondPar, thirdPar, time)
 		case "glow":
 			switch(thirdPar)
 			{
-				case "fg":
+				case "foreground":
 					function glowloop(color2, secondPar1){
-						$(obj).animate({Color:color2}, 0, function(){
-							$(obj).animate({Color:secondPar1}, time, function()
+						$(obj).animate({color:color2}, 0, function(){
+							$(obj).animate({color:secondPar1}, time, function()
 							{
 								setTimeout(glowloop, 0, secondPar1, color2);
 							});
@@ -79,7 +80,7 @@ easy.color = function(obj, color1, action, secondPar, thirdPar, time)
 					}
 					glowloop(color1, secondPar);
 				break;
-				case "bg":
+				case "background":
 					function glowloop(color2, secondPar1){
 						$(obj).animate({backgroundColor:color2}, 0, function(){
 							$(obj).animate({backgroundColor:secondPar1}, time, function()
