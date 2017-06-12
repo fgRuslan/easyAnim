@@ -83,7 +83,7 @@ This function allows you to rotate an object.
 | obj | object |
 | color1 | at what color will the function start fading or glowing |
 | action | *fade* or *glow* |
-| secondPar | if action is glow: at what color should the function change an object.if action is fade: *foreground* or *background* , foreground or background color. |
+| secondPar | if *action* is *glow*: at what color should the function change an object. If *action* is *fade*: *foreground* or *background* , foreground or background color. |
 | thirdPar | used only by glow parameter. *foreground* or *background* , foreground or background color. |
 | time | time in *ms* when the action should finish |
 
