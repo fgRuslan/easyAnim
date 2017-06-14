@@ -2,7 +2,8 @@
 
 This is a list of all functions in current version of the library:
 
-*function easy.slide(obj, action, time)*
+function easy.slide(obj, action, time)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -13,7 +14,8 @@ This is a list of all functions in current version of the library:
 This function allows you to slide an object.
 ```
 
-*function easy.fade(obj, action, time)*
+function easy.fade(obj, action, time)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -25,7 +27,8 @@ This function allows you to slide an object.
 This function allows you to hide or show an object.
 ```
 
-*function easy.Zindex(obj, indx)*
+function easy.Zindex(obj, indx)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -38,7 +41,8 @@ This function allows you to hide or show an object.
 This function allows you to change an object's position in z coord..
 ```
 
-*function easy.pos(obj, x, y, time)*
+function easy.pos(obj, x, y, time)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -51,7 +55,8 @@ This function allows you to change an object's position in z coord..
 This function allows you to move an object.
 ```
 
-*function easy.scale(obj, width, height, time)*
+function easy.scale(obj, width, height, time)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -64,7 +69,8 @@ This function allows you to move an object.
 This function allows you to scale an object.
 ```
 
-*function easy.rotate(obj, deg, time)*
+function easy.rotate(obj, deg, time)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -76,7 +82,8 @@ This function allows you to scale an object.
 This function allows you to rotate an object.
 ```
 
-*function easy.color(obj, color1, action, secondPar, thirdPar, time)*
+function easy.color(obj, color1, action, secondPar, thirdPar, time)
+-
 
 | **argument** | **description** |
 | ------ | ------ |
@@ -90,7 +97,3 @@ This function allows you to rotate an object.
 ```
 This function allows you to fade color of an object or make it glow.
 ```
-
-Written by https://github.com/fgRuslan
-
-rusikisaev@list.ru
