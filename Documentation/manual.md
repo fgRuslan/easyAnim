@@ -82,7 +82,7 @@ function easy.rotate(obj, deg, time)
 This function allows you to rotate an object.
 ```
 
-*function easy.color(obj, action, secondPar, thirdPar, color1, time)*
+function easy.color(obj, action, secondPar, thirdPar, color1, time)
 
 | argument | description |
 | ------ | ------ |
