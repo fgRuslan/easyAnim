@@ -1,21 +1,27 @@
 # easyAnim
 
 easyAnim is a Javascript library that can be used to animate your websites quicker.
-*Warning!* This library requires jQuery to work,so you should include it somewhere.
+*Warning!* This library requires jQuery to work, so you should include it somewhere.
 
 [library website](https://fgRuslan.github.io/easyAnim)
 
 [manual](https://github.com/fgRuslan/easyAnim/blob/master/Documentation/manual.md)
 
 ## How to install the library
-You should get the copy of the library from github with this command:
+You should clone it from github:
 
 ```
 git clone https://github.com/fgRuslan/easyAnim.git
 ```
 
+or download it using bower:
+
+```
+bower install easyanim
+```
+
 ## How  to  use  the  library
-You should load jQuery which is used by easyanim.
+You should load jQuery which is used by easyAnim.
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
