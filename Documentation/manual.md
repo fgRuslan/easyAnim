@@ -82,7 +82,7 @@ function easy.rotate(obj, deg, time)
 This function allows you to rotate an object.
 ```
 
-function easy.color(obj, action, secondPar, thirdPar, color1, time)
+function easy.color(obj, action, secondPar, thirdPar, clr, time)
 
 | argument | description |
 | ------ | ------ |
@@ -90,7 +90,7 @@ function easy.color(obj, action, secondPar, thirdPar, color1, time)
 | action | **fade** or **glow** |
 | secondPar | **foreground** or **background** |
 | thirdPar | at what color should the function change an object. Can be null if *action* is **fade** |
-| color1 | at what color will the function start fading or glowing |
+| clr | at what color will the function start fading or glowing |
 | time | time in ms when the action should finish |
 
 ```

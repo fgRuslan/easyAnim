@@ -41,16 +41,16 @@ easy.rotate = function(obj, deg1, time){
 	}});
 }
 //Warning! This function is very messy
-easy.color = function(obj, action, secondPar, thirdPar, color1, time){
+easy.color = function(obj, action, secondPar, thirdPar, clr, time){
 	switch(action)
 	{
 		case "fade":
 			switch(secondPar){
 				case "foreground":
-					$(obj).animate({color:color1}, time);
+					$(obj).animate({color:clr}, time);
 				break;
 				case "background":
-					$(obj).animate({backgroundColor:color1}, time);
+					$(obj).animate({backgroundColor:clr}, time);
 				break;
 				default:
 					console.log("%ceasyAnim: Error in function color: invalid secondPar", 'background: #222; color: #bada55');
@@ -67,7 +67,7 @@ easy.color = function(obj, action, secondPar, thirdPar, color1, time){
 							});
 						});
 					}
-					glowloop(color1, thirdPar);
+					glowloop(clr, thirdPar);
 				break;
 				case "background":
 					function glowloop(color2, secondPar1){
@@ -77,7 +77,7 @@ easy.color = function(obj, action, secondPar, thirdPar, color1, time){
 							});
 						});
 					}
-					glowloop(color1, thirdPar);
+					glowloop(clr, thirdPar);
 				break;
 				default:
 					console.log("%ceasyAnim: Error in function color: invalid secondPar", 'background: #222; color: #bada55');
