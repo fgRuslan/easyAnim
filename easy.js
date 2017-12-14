@@ -22,16 +22,6 @@ easy.slide = function(obj, action, time){//Action can be 1(down) 0(up) or 2(togg
 easy.fade = function(obj, action, time){
 	$(obj).animate({opacity: action}, time);
 }
-easy.Zindex = function(obj, indx){
-	$(obj).css("z-index", indx);
-}
-easy.pos = function(obj, x, y, time){
-	$(obj).css("position", "relative");
-	$(obj).animate({left:x, top:y}, time);
-}
-easy.scale = function(obj, width1, height1, time){
-	$(obj).animate({width:width1, height:height1}, time);
-}
 easy.rotate = function(obj, deg1, time){
 	$(obj).css("position", "relative");
 	$({deg: 0}).animate({deg: deg1}, {duration: time, step: function (now) {
@@ -40,7 +30,6 @@ easy.rotate = function(obj, deg1, time){
 		});
 	}});
 }
-//Warning! This function is very messy
 easy.color = function(obj, action, secondPar, thirdPar, clr, time){
 	switch(action)
 	{

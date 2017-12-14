@@ -27,48 +27,6 @@ function easy.fade(obj, action, time)
 This function allows you to hide or show an object.
 ```
 
-function easy.Zindex(obj, indx)
--
-
-| argument | description |
-| ------ | ------ |
-| obj | object |
-| indx | index in z coordinate |
-
-![z coordinate](http://i.imgur.com/Zai7O0j.png)
-
-```
-This function allows you to change an object's position in z coord..
-```
-
-function easy.pos(obj, x, y, time)
--
-
-| argument | description |
-| ------ | ------ |
-| obj | object |
-| x | x coordinate of the place where to move |
-| y | y coordinate of the place where to move |
-| time | time in ms when the action should finish |
-
-```
-This function allows you to move an object.
-```
-
-function easy.scale(obj, width, height, time)
--
-
-| argument | description |
-| ------ | ------ |
-| obj | object |
-| width | width |
-| height | height |
-| time | time in ms when the action should finish |
-
-```
-This function allows you to scale an object.
-```
-
 function easy.rotate(obj, deg, time)
 -
 
